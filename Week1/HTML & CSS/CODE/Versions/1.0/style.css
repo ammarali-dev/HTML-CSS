@@ -1,0 +1,250 @@
+body {
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+
+    font-family: "Arial, Helvetica, sans-serif";
+}
+
+#header-top {
+    background-color: #ff909d;
+    color: #fff;
+}
+
+#header-bottom>div {
+    flex: 1;
+}
+
+.flex-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 75px;
+}
+
+#header {
+    /* border: 1px solid black; */
+}
+
+.header-icons {
+    padding-left: 10px;
+}
+
+.center-content {
+    align-content: center;
+}
+
+#logo {
+    align-self: center;
+}
+
+#nav-icon {
+    display: flex;
+    /* width: 44%; */
+    justify-content: center;
+    flex-direction: column;
+    align-items:end;
+    padding-right: 1.5rem;
+
+}
+
+.simple-paragraph{
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top: 1rem;
+    margin-top: 1rem;
+}
+.paragraph-block {
+    
+    margin: 1rem;
+    
+}
+.paragraph {
+    background-color: rgba(33, 30, 36, 0.815);
+    color: #e9e8e8;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* utilities */
+.p-3 {
+    padding: 1rem;
+}
+
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.px-1-5 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.px-0-5 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-1-5 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.py-0-5 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.mx-1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+h2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 1;
+}
+p{
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.d-flex {
+    display: flex;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-center {
+    justify-content: center;
+    
+}
+.justify-content-space-between {
+    justify-content:space-between;
+    
+}
+.flex-direction-row{
+
+    flex-direction: row;
+}
+.flex-direction-column{
+
+    flex-direction: column;
+}
+.round-image, .quote {
+    border-radius: 10%;
+   
+    width: 90%;
+    padding: 1rem;
+
+}
+.align-items-center{
+    align-items: center;
+} 
+.circle-image{
+    border-radius: 50%;
+    width: 15%;
+    
+    background-color: aqua;
+}
+.radient-paragraph{
+    background-color: rgb(127 255 236 / 56%);
+    border-radius: 0.4rem;
+    padding-bottom: 1rem;
+}
+.sub-title{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    font-size: large;
+    font-weight: bold;
+}
+.active-button{
+    margin-top: 1rem;
+    background-color: black;    
+    color: cornsilk;        
+    letter-spacing: 0.4rem;  
+    font-size: 1.2rem;
+    width: 11rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.active-button:hover{
+    background-color: rgb(236, 236, 236);    
+    color: black;    
+}
+footer{
+    margin-top: 2rem;
+    /* padding-bottom: 2rem; */
+    background-color: rgb(0 0 0 / 90%);
+
+}
+.white-fonts{
+    color: rgb(236, 236, 236);    
+}
+.social-icons{
+    color: rgb(236, 236, 236);                                                              
+}
+.footer-breaks{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#ffffff;
+    width: 100%;
+}
+.footer-titles{
+   color:#e9e8e8;
+   width: 6rem; 
+   text-align: left; 
+   font-weight: normal;
+   font-size: small;
+   margin-left: 1rem;
+}
+.footer-title-line{
+    color:#e9e8e8;
+   width: 100%; 
+   text-align: left; 
+   border-bottom: 1px solid #e9e8e8; 
+   line-height: 0.2em;
+   margin: 18px 0 20px; 
+}
+.quick-links-block{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.quick-links-block a {
+    text-decoration: none;
+    color:#e9e8e8;
+    margin-top: 0.5rem;
+    
+}
+
+.quick-links-block:hover a{
+    text-decoration: underline;
+}
+.footer-text{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color:#e9e8e8;
+    /* font-style: italic; */
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.text-align-center{
+    text-align: center;
+}

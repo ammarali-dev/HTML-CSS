@@ -1,0 +1,31 @@
+.flex-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: left ;
+    height: 75px;
+    
+    
+}
+#header{
+    /* border: 1px solid black; */
+}
+.header-icons{
+    padding-left: 10px;
+}
+.center-content{
+    align-content: center;
+}
+#logo{
+    display: flex;
+    width: 55%;
+    
+   justify-content: right;
+}
+#nav-icon{
+    display: flex;
+    width: 44%;
+    justify-content: right;
+}
+#head1{
+    background-color: cadetblue;
+}
