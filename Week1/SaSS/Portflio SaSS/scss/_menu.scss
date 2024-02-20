@@ -33,7 +33,7 @@
             content: '';
             position: absolute;
             top: 8px;
-            width: 21px;
+            width: 20px;
             height: 3px;
             background-color: set-text-color($primary-color);
             @include transition-ease;
@@ -84,6 +84,7 @@
         @include transition-ease;
 
         &.open {
+
             transform: translateY(0);
 
         }
@@ -97,7 +98,7 @@
 
             }
 
-            &.active>a {
+            &.active > a {
                 color: $secondary-color;
 
             }
@@ -118,11 +119,9 @@
     }
 }
 
+
 @for $i from 1 through 4 {
-    .menu-nav_item::nth-child(#{$i}) {
-        transition-delay: ($i * 0.1s)+0.15s;
-
+    .menu-nav_item:nth-child(#{$i}) {
+      transition-delay: ($i * 0.1s) + 0.15s;
     }
-
-
-}
+  }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./scss/main.css" />
 
-    <title>Make Smith</title>
+    <title>Contact Make Smith</title>
   </head>
   <body>
     <header>
@@ -14,7 +14,7 @@
       </div>
       <nav class="nav">
         <ul class="menu-nav">
-          <li class="menu-nav_item active">
+          <li class="menu-nav_item">
             <a href="./index.html" class="menu-nav_link">Home</a>
           </li>
           <li class="menu-nav_item">
@@ -23,7 +23,7 @@
           <li class="menu-nav_item">
             <a href="./about.html" class="menu-nav_link">About me</a>
           </li>
-          <li class="menu-nav_item">
+          <li class="menu-nav_item active">
             <a href="./contact.html" class="menu-nav_link">Contact</a>
           </li>
         </ul>
@@ -31,18 +31,32 @@
     </header>
 
     <main>
-      <section class="home">
-        <h2>Hi! My name is Mike Smith</h2>
-        <h1 class="home_name">
-          Mike <span class="home_name--last">Smith </span>
-        </h1>
-        <h2>Web Developer, Designer & Programmer</h2>
+      <section class="contact">
+        <h2>Contact me..</h2>
+
+        <div class="contact_list">
+          <div class="contact_email">
+            <i class="fas fa-envelope"></i>
+            Email
+            <div class="text-secondary">mike@email.com</div>
+          </div>
+          <div class="contact_phone">
+            <i class="fas fa-mobile-alt"></i>
+            Phone
+            <div class="text-secondary">+ (12) 112-221-112</div>
+          </div>
+          <div class="contact_address">
+            <i class="fas fa-map-marker-alt"></i>
+            <address></address>
+            <div class="text-secondary">123 First St. Street Huston, Texas</div>
+          </div>
+        </div>
         <div class="social-icons">
           <a href="#!">
             <i class="fab fa-twitter fa-2x"></i>
           </a>
           <a href="#!">
-            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-facebook fa-2x active"></i>
           </a>
           <a href="#!">
             <i class="fab fa-instagram fa-2x"></i>
@@ -51,7 +65,7 @@
             <i class="fab fa-github fa-2x"></i>
           </a>
         </div>
-        <footer>&copy,Copyright 2019</footer>
+        <footer>@Copyright 2019</footer>
       </section>
     </main>
     <script

@@ -1,7 +1,10 @@
 @import './config';
-@import './about';
-@import './home';
 @import './menu';
+@import './home';
+@import './projects';
+@import './about';
+@import './contact';
+
 
 body {
     background: $primary-color;
