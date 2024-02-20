@@ -1,280 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
 
-  <title>Document</title>
-</head>
-
-<body>
-  <!-- Header -->
-  <header id="header">
-    <!-- Top Header -->
-    <div id="header-top" class="d-flex px-0-5">
-      <div class="header-top-item">
-        <i class="fa fa-mobile-phone "></i>
-
-        <span> +92-312345679-0 </span>
-      </div>
-
-      <div class="header-top-item px-0-5">
-        <i class="fa fa-envelope header-icons"></i>
-        <span> helloworld@gmail.com </span>
-      </div>
-    </div>
-
-    <div class="container">                     
-      <!-- Header Bottom -->
-      <div id="header-bottom" class="d-flex px-3 flex-direction-column align-items-center ">
-        <div class="clearfix">&nbsp;</div>
-        <div id="logo" class="d-flex justify-content-center ">
-          <img class="" style="height: 70px; width: auto;" src="./images/christmas_2012_new_6518.jpg"
-            alt="Logo" />
-        </div>
-        <div id="navbar" class=" d-flex flex-direction-column justify-content-end align-items-center">
-          <div class="d-flex flex-direction-column justify-content-center " id="navbar">
-            
-            <div class=" navbar-item px-0-5">
-              <!-- <i class="fa fa-home"></i> -->
-              <a href="#home" >Home</a>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <!-- Top Header -->
+      <!-- MENU LEFT -->
+      <div class="menu-container menu-open">
+        <div class="menu-bar">
+          <div class="menu-header">
+            <div
+              class="menu-top d-flex flex-direction-row justify-content-space-between"
+            >
+              <div class="menu-top-text">Ammar Ali</div>
+              <div class="menu-close-icon">
+                <i class="fa fa-close menu-top-icons"></i>
+              </div>
             </div>
-            
-            <div class="navbar-item px-0-5">
-              <!-- <i class="fa fa-"></i> -->
-              <a class="nav-link" href="#about">About</a>
-
-            </div>
-            <div class="navbar-item px-0-5">
-              <a class="nav-link" href="#contact">Contact</a>
-
-            </div>
-            <div class="navbar-item px-0-5">
-
-              <a class="nav-link " id="">
-                <i id="nav-icon" class="fa fa-bars" ></i>
-              </a>
+            <div class="menu-items">
+              <div class="menu-item">
+                <div class="menu-item-text">Home</div>
+              </div>
+              <div class="menu-item menu-item-drop">
+                <div class="menu-item-drop-bar">
+                  <div class="menu-item-text">Categories</div>
+                  <i class="fa fa-plus menu-top-icons menu-item-close"></i>
+                </div>
+              </div>
+              <div class="menu-item menu-item-drop">
+                <div class="menu-item-drop-bar">
+                  <div class="menu-item-text">Products</div>
+                  <i class="fa fa-plus menu-top-icons menu-item-close"></i>
+                </div>
+              </div>
+              <div class="menu-item menu-item-drop">
+                <div class="menu-item-drop-bar">
+                  <div class="menu-item-text">Others</div>
+                  <i class="fa fa-plus menu-top-icons menu-item-close"></i>
+                </div>
+              </div>
+              <div class="menu-item menu-item-drop">
+                <div class="menu-item-drop-bar">
+                  <div class="menu-item-text">Pages</div>
+                  <i class="fa fa-plus menu-top-icons menu-item-close"></i>
+                </div>
+              </div>
+              <div class="menu-item menu-item-drop">
+                <div class="menu-item-drop-bar">
+                  <div class="menu-item-text">Blog</div>
+                  <i class="fa fa-plus menu-top-icons menu-item-close"></i>
+                </div>
+              </div>
+              <div class="menu-item menu-item-drop">
+                <div class="menu-item-drop-bar">
+                  <div class="menu-item-text">Elements</div>
+                  <i class="fa fa-plus menu-top-icons menu-item-close"></i>
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-text">Hot Offers</div>
+              </div>
             </div>
           </div>
-
-       
-          
-          <!-- <i class="fa fa-navicon"></i> -->
-        </div>
-        
-      </div>
-<!--       
-      <div class="d-flex flex-direction-column align-items-center" id="navbar-dropdown">
-            
-        <div class="navbar-dropdown-item px-0-5">
-          <i class="fa fa-home"></i>
-          <a class="nav-link" href="#home" >Home</a>
-        </div>
-        
-        <div class="navbar-dropdown-item px-0-5">
-          <i class="fa fa-"></i>
-          <a class="nav-link" href="#about">About</a>
-
-        </div>
-        <div class="navbar-dropdown-item px-0-5">
-          <a class="nav-link" href="#contact">Contact</a>
-
-        </div>
-        
-      </div>
-       -->
-    </div>
-
-  </header>
-  <!-- multi paragraphs -->
-  <div class="d-flex flex-direction-column " >
-    <div class=" container">
-    <div class="banner-image d-flex justify-content-center ">
-      <img class="round-image img-fluid" src="./images/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg" alt="" />
-    </div>
-  </div>
-  <div class="container">
-    <div class="peoples d-flex flex-direction-row justify-content-center">
-
-      <div class="people-img-wrap py-3 px-2">
-        <img class="circle-image img-fluid" src="./images/3.jpg" alt="" />
-      </div>
-
-      <div class="people-img-wrap py-3 px-2">
-
-        <img class="circle-image img-fluid" src="./images/1.jpg" alt="" />
-      </div>
-
-      <div class="people-img-wrap py-3 px-2">
-        <img class="circle-image img-fluid" src="./images/2.jpg" alt="" />
-
-      </div>
-
-      <div class="people-img-wrap py-3 px-2">
-
-        <img class="circle-image img-fluid" src="./images/1.jpg" alt="" />
-      </div>
-
-      <div class="people-img-wrap py-3 px-2">
-        <img class="circle-image img-fluid" src="./images/4.jpg" alt="" />
-
-      </div>
-
-      <div class="people-img-wrap py-3 px-2">
-        <img class="circle-image img-fluid" src="./images/5.jpg" alt="" />
-
-      </div>
-      <div class="people-img-wrap py-3 px-2">
-        <img class="circle-image img-fluid" src="./images/5.jpg" alt="" />
-
-      </div>
-
-      <div class="people-img-wrap py-3 px-2">
-
-        <img class="circle-image img-fluid" src="./images/3.jpg" alt="" />
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="paragraph-block d-flex flex-direction-column justify-content-center" id="multi-paragraphs">
-
-      <div class="paragraph d-flex flex-direction-column align-items-center flex-1">
-        <h2>Title1 here</h2>
-        <p class="">
-          Lorem ipsum dolor sit amet conseur adip elit. Ducimus veniam.
-        </p>
-      </div>
-      <div class="paragraph d-flex flex-direction-column align-items-center flex-1">
-        <h2>Title1 here</h2>
-        <p class="">
-          Lorem ipsum dolor sit amet conseur adip elit. Ducimus veniam.
-        </p>
-      </div>
-      <div class="paragraph d-flex flex-direction-column align-items-center flex-1">
-        <h2>Title1 here</h2>
-        <p class="">
-          Lorem ipsum dolor sit amet conseur adip elit. Ducimus veniam.
-        </p>
-      </div>
-    </div>
-
-  </div>
-
-
-  <!-- Simple Paragraph -->
-  <div class="container">
-    <div class="d-flex flex-direction-column align-items-center simple-paragraph">
-      <div class="simple-paragraph-block d-flex flex-direction-column align-items-center flex-3 overflow-hidden">
-        <h2>Title One here</h2>
-        <p class="">
-          Lorem ipsum dolor sit amet conseur adip elit. Ducimus veniam. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Quibusdam est explicabo veniam quidem maiores eius laudantium aliquam pariatur tempora
-          cupiditate, rem incidunt, possimus ipsa tenetur ullam quisquam atque iure debitis. Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Maiores at, perferendis architecto culpa sapiente totam, possimus earum vel illo
-          labore voluptate a recusandae nostrum eos, quos ad. Iure, quis consectetur?
-        </p>
-      </div>
-
-      <div class="image-quote simple-paragraph-block d-flex flex-4 justify-content-center ">
-        <img class="quote img-fluid" src="./images/mostafa-saeed-pmdHJQf21GU-unsplash.jpg" alt="">
-      </div>
-    </div>
-
-  </div>
-
-  <section class="bg-image-paragraph">
-
-    <div class="container">
-      <div class="radient-paragraph img-fluid white-fonts">
-        <div class="d-flex flex-direction-column align-items-center">
-          <h2 class="protest-guerrilla-regular-400">Title One here</h2>
-          <p class="">
-            Lorem ipsum d Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed, animi, architecto nulla
-            aliquid possimus eum totam libero eveniet adipisci at omnis accusantium recusandae doloribus ut consequatur
-            obcaecati expedita laudantium.olor sit amet conseur adip elit. Ducimus veniam.
-          </p>
-          <h1 class="sub-title protest-guerrilla-regular-400">Sub Heading Here</h1>
-          <div class="">
-            <button class="active-button barriecito-regular">
-              Click Here
-            </button>
+          <div class="menu-footer">
+            <div class="menu-bottom">
+              <div class="menu-bottom-items">
+                <div class="menu-bottom-item menu-bottom-item-drop">
+                  <div class="menu-bottom-item-drop-bar close">
+                    <div>Languages</div>
+                    <i class="fa fa-angle-down menu-bottom-icons"></i>
+                  </div>
+                </div>
+                <div class="menu-bottom-item menu-bottom-item-drop">
+                  <div class="menu-bottom-item-drop-bar close">
+                    <div>Currency</div>
+                    <i class="fa fa-angle-down menu-bottom-icons"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-bottom-social-icons">
+                <div class="social-icon"><i class="fa fa-facebook"></i></div>
+                <div class="social-icon"><i class="fa fa-twitter"></i></div>
+                <div class="social-icon"><i class="fa fa-instagram"></i></div>
+                <div class="social-icon"><i class="fa fa-linkedin"></i></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
+      <div id="header-top" class="d-flex p-3">
+        <div class="header-top-item">
+          <i class="fa fa-mobile-phone header-icons"></i>
 
-
-
-  </div>
-  <!-- Body End -->
-  </div>
-
-  <footer class="d-flex flex-direction-column ">
-    <div id="logo" class="d-flex">
-      <img class="center-content img-fluid" style="height: 70px; width: 70px"
-        src="./images/christmas_2012_new_6518-removebg-preview.png" alt="Logo" />
-    </div>
-    <div class="footer-paragraph  d-flex flex-direction-column align-items-center">
-      <p class="white-fonts">
-        Lorem ipsum dolor sit amet conseur amet amet conseur adip elit adip elit. Ducimus amet conseur adip elit venil Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsam cumque repellendus sapiente quos quasi atque animi eum tenetur non quod adipisci necessitatibus, earum temporibus labore autem id a asperiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tenetur repellendus? Vel fugit animi numquam! Natus, at dicta officia architecto dolorum possimus, dolor nemo animi numquam accusantium ad cum similique.
-        lore
-      </p>
-      
-
-    </div>
-    <hr class="footer-breaks">
-    <div>
-      <!-- QUICK LINKS -->
-      <div class="d-flex flex-direction-column">
-        <div class="d-flex flex-direction-row  ">
-          <h1 class="footer-titles">
-
-            Quick Links
-
-          <!-- <div class="footer-title-line"></div> -->
-
-        </div>
-        <div class="quick-links-block d-flex flex-direction-column ">
-          <a href="#"> Home</a>
-          <a href="#"> About</a>
-          <a href="#"> Contact</a>
-        </div>
-        <div class="d-flex flex-direction-row  ">
-          <h1 class="footer-titles">
-
-            Reach Us
-
-          </h1>
-          
-          <!-- <div class="footer-title-line"></div> -->
-
-        </div>
-        <div class="footer-text">
-          Street No#223 Block 98 Oposite to ABC University XYZ Road, City, Pakistan
-        </div>
-        <div class="social-icons d-flex flex-direction-row  mx-0-5">
-          <i class="fa fa-facebook header-icons mx-0-5"></i>
-          <i class="fa fa-instagram header-icons mx-0-5"></i>
-          <i class="fa fa-twitter header-icons mx-0-5"></i>
-          <i class="fa fa-linkedin header-icons mx-0-5"></i>
+          <span> +92-312345679-0 </span>
         </div>
 
+        <div class="header-top-item">
+          <i class="fa fa-envelope header-icons"></i>
+          <span> helloworld@gmail.com </span>
+        </div>
       </div>
-      <hr class="footer-breaks">
-      <p class="footer-text ">
-        © Copyright 2024 Company Name. All rights reserved.
-      </p>
+
+      <div class="container">
+        <!-- Header Bottom -->
+        <div id="header-bottom" class="d-flex px-3 justify-content-evenly">
+          <div class="clearfix">&nbsp;</div>
+          <div id="logo" class="d-flex justify-content-center">
+            <img
+              class="center-content"
+              style="height: 70px; width: auto"
+              src="./images/christmas_2012_new_6518.jpg"
+              alt="Logo"
+            />
+          </div>
+
+          <div id="nav-icon">
+            <i class="fa fa-navicon"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- multi paragraphs -->
+    <div class="d-flex flex-direction-column justify-content-center">
+      <div class="container">
+        <div class="banner-image d-flex justify-content-center">
+          <img
+            class="round-image img-fluid"
+            src="./images/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div class="peoples d-flex flex-direction-row justify-content-center">
+          <div class="people-img-wrap py-3 px-2">
+            <img class="circle-image img-fluid" src="./images/3.jpg" alt="" />
+          </div>
+
+          <div class="people-img-wrap py-3 px-2">
+            <img class="circle-image img-fluid" src="./images/1.jpg" alt="" />
+          </div>
+
+          <div class="people-img-wrap py-3 px-2">
+            <img class="circle-image img-fluid" src="./images/2.jpg" alt="" />
+          </div>
+
+          <div class="people-img-wrap py-3 px-2">
+            <img class="circle-image img-fluid" src="./images/1.jpg" alt="" />
+          </div>
+
+          <div class="people-img-wrap py-3 px-2">
+            <img class="circle-image img-fluid" src="./images/4.jpg" alt="" />
+          </div>
+
+          <div class="people-img-wrap py-3 px-2">
+            <img class="circle-image img-fluid" src="./images/5.jpg" alt="" />
+          </div>
+          <div class="people-img-wrap py-3 px-2">
+            <img class="circle-image img-fluid" src="./images/5.jpg" alt="" />
+          </div>
+
+          <div class="people-img-wrap py-3 px-2">
+            <img class="circle-image img-fluid" src="./images/3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          class="paragraph-block d-flex flex-direction-column justify-content-center"
+          id="multi-paragraphs"
+        >
+          <div
+            class="paragraph d-flex flex-direction-column align-items-center flex-1"
+          >
+            <h2>Title1 here</h2>
+            <p class="">
+              Lorem ipsum dolor sit amet conseur adip elit. Ducimus veniam.
+            </p>
+          </div>
+          <div
+            class="paragraph d-flex flex-direction-column align-items-center flex-1"
+          >
+            <h2>Title1 here</h2>
+            <p class="">
+              Lorem ipsum dolor sit amet conseur adip elit. Ducimus veniam.
+            </p>
+          </div>
+          <div
+            class="paragraph d-flex flex-direction-column align-items-center flex-1"
+          >
+            <h2>Title1 here</h2>
+            <p class="">
+              Lorem ipsum dolor sit amet conseur adip elit. Ducimus veniam.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Simple Paragraph -->
+      <div class="container">
+        <div
+          class="d-flex flex-direction-column align-items-center simple-paragraph"
+        >
+          <div
+            class="simple-paragraph-block d-flex flex-direction-column align-items-center flex-3 overflow-hidden"
+          >
+            <h2>Title One here</h2>
+            <p class="">
+              Lorem ipsum dolor sit amet conseur adip elit. Ducimus veniam.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam est explicabo veniam quidem maiores eius laudantium
+              aliquam pariatur tempora cupiditate, rem incidunt, possimus ipsa
+              tenetur ullam quisquam atque iure debitis. Lorem ipsum dolor sit,
+              amet consectetur adipisicing elit. Maiores at, perferendis
+              architecto culpa sapiente totam, possimus earum vel illo labore
+              voluptate a recusandae nostrum eos, quos ad. Iure, quis
+              consectetur?
+            </p>
+          </div>
+
+          <div
+            class="image-quote simple-paragraph-block d-flex flex-4 justify-content-center"
+          >
+            <img
+              class="quote img-fluid"
+              src="./images/mostafa-saeed-pmdHJQf21GU-unsplash.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <section class="bg-image-paragraph">
+        <div class="container">
+          <div class="radient-paragraph img-fluid white-fonts">
+            <div class="d-flex flex-direction-column align-items-center">
+              <h2 class="protest-guerrilla-regular-400">Title One here</h2>
+              <p class="">
+                Lorem ipsum d Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Eius sed, animi, architecto nulla aliquid possimus eum
+                totam libero eveniet adipisci at omnis accusantium recusandae
+                doloribus ut consequatur obcaecati expedita laudantium.olor sit
+                amet conseur adip elit. Ducimus veniam.
+              </p>
+              <h1 class="sub-title protest-guerrilla-regular-400">
+                Sub Heading Here
+              </h1>
+              <div class="">
+                <button class="active-button barriecito-regular">
+                  Click Here
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
+    <!-- Body End -->
 
-  </footer>
-</body>
-
+    <footer class="d-flex flex-direction-column">
+      <div id="logo" class="d-flex justify-content-center">
+        <img
+          class="center-content img-fluid"
+          style="height: 70px; width: 70px"
+          src="./images/christmas_2012_new_6518-removebg-preview.png"
+          alt="Logo"
+        />
+      </div>
+      <div
+        class="footer-paragraph d-flex flex-direction-column align-items-center"
+      >
+        <p class="white-fonts">
+          Lorem ipsum dolor sit amet conseur amet amet conseur adip elit adip
+          elit. Ducimus amet conseur adip elit venil lore
+        </p>
+        <div
+          class="social-icons d-flex flex-direction-row justify-content-space-between px-1-5"
+        >
+          <i class="fa fa-facebook header-icons"></i>
+          <i class="fa fa-instagram header-icons"></i>
+          <i class="fa fa-twitter header-icons"></i>
+          <i class="fa fa-linkedin header-icons"></i>
+        </div>
+      </div>
+      <hr class="footer-breaks" />
+      <div>
+        <!-- QUICK LINKS -->
+        <div class="d-flex flex-direction-column">
+          <div class="d-flex flex-direction-row">
+            <h1 class="footer-titles">Quick Links</h1>
+            <div class="footer-title-line"></div>
+          </div>
+          <div class="quick-links-block d-flex flex-direction-column">
+            <a href="#"> Home</a>
+            <a href="#"> About</a>
+            <a href="#"> Contact</a>
+          </div>
+          <div class="d-flex flex-direction-row">
+            <h1 class="footer-titles">Reach Us</h1>
+            <div class="footer-title-line"></div>
+          </div>
+          <div class="footer-text">
+            Street No#223 Block 98 Oposite to ABC University XYZ Road, City,
+            Pakistan
+          </div>
+        </div>
+        <hr class="footer-breaks" />
+        <p class="footer-text text-align-center">
+          © Copyright 2024 Company Name. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
