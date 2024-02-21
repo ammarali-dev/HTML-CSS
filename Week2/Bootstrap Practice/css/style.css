@@ -33,11 +33,28 @@ h3{
     background-color: #f7f7f7;
 }
 
-input{
+input,select{
     width: 100%;
+    font-size: 14px;
 }
 .heading1{
 
+}
+
+.txt-md{
+    font-size: 14px;
+    font-weight: 500;
+}
+.txt-bold{
+    font-size: 14px;
+    font-weight: 700;
+}
+.txt-light{
+    font-size: 14px;
+    font-weight: 300;
+}
+.fs-14px{
+    font-size: 14px;
 }
 
 /* Text Utilities */

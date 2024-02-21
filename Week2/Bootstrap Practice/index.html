@@ -26,12 +26,12 @@
     <section class="checkout">
       <div class="container-fluid checkout-topbar py-3 mb-5">
         <div
-          class="d-flex flex-column flex-md-row align-items-center justify-content-md-between"
+          class="d-flex flex-column flex-md-row align-items-center justify-content-md-between container"
         >
-          <div><h2>Checkout</h2></div>
+          <div><h2 class="m-md-0">Checkout</h2></div>
           <div class="d-flex flex-direction-row">
-            <div>Home</div>
-            <div>
+            <div class="txt-light">Home</div>
+            <div class="fs-14px">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -54,215 +54,247 @@
           </div>
         </div>
       </div>
-      <form action="">
-        <div>
-          <div class="row container">
-            <!-- Block 1 -->
-            <div class="block col-sm-12 col-lg-8">
-              <div class="">
-                <h3>Billing Details</h3>
-              </div>
-              <div class="row">
-                <div class="col-sm-6">
-                  <div>
-                    <label for="fname">First Name*</label>
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      name=""
-                      id="fname"
-                      placeholder="Enter your first name"
-                    />
-                  </div>
+      <div class="container">
+        <form action="">
+          <div>
+            <div class="row container">
+              <!-- Block 1 -->
+              <div class="block col col-lg-8">
+                <div class="">
+                  <h3>Billing Details</h3>
                 </div>
-                <div class="col-sm-6">
-                  <div>
-                    <label for="lname">Last Name*</label>
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      name=""
-                      id="lname"
-                      placeholder="Enter your last name"
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div>
-                    <label for="email">Email*</label>
-                  </div>
-                  <div>
-                    <input
-                      type="email"
-                      name=""
-                      id="email"
-                      placeholder="Enter your email"
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div>
-                    <label for="phone">Phone*</label>
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      name=""
-                      id="phone"
-                      placeholder="Enter your phone"
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div>
-                    <label for="address">Address</label>
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      name=""
-                      id="address"
-                      placeholder="Enter your address"
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
-                  <div>
-                    <label for="city">City</label>
-                  </div>
-                  <div>
-                    <select id="city">
-                      <option selected>City</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div>
-                    <label for="cname"
-                      >City Name If Not Found In Dropdown</label
-                    >
-                  </div>
-                  <div>
-                    <input
-                      type=""
-                      name=""
-                      id="cname"
-                      placeholder="Enter city if not found in dropdown"
-                    />
-                  </div>
-
-                  <div></div>
-                </div>
-                <div class="col-sm-6">
-                  <div>
-                    <label for="country">Country*</label>
-                  </div>
-                  <div>
-                    <select id="country">
-                      <option selected>Country</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div>
-                    <label for="pcode">Postal Code</label>
-                  </div>
-                  <div>
-                    <input
-                      type="text"
-                      name=""
-                      id="pcode"
-                      placeholder="Enter your postal code "
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row col-sm-12 col-lg-4">
-              <!-- Block 2 -->
-              <div class="block col-12">
-                <div>
-                  <h3>SUMMARY</h3>
-                </div>
-                <div>
-                  <div class="d-flex flex-direction-row">
-                    <div>Sub-Total</div>
-                    <div>$80.0</div>
-                  </div>
-                </div>
-                <div>
-                  <div class="d-flex flex-direction-row">
-                    <div>Delivery Charges</div>
-                    <div>$80.0</div>
-                  </div>
-                </div>
-                <div>
-                  <div class="d-flex flex-direction-row">
-                    <div>Coupan Discount</div>
-                    <div>Apply Coupan</div>
-                  </div>
-                </div>
-                <div>
-                  <div class="d-flex flex-direction-row">
-                    <h3>TOTAL AMOUNT</h3>
-                    <div>$80.0</div>
-                  </div>
-                </div>
-              </div>
-              <!-- Block 3 -->
-              <div class="block col-12">
-                <div>
-                  <h3>DELIVERY METHOD</h3>
-                </div>
-
-                <div>
-                  <div>
-                    <span>
-                      Please select the preferred shipping method to use on this
-                      order.
-                    </span>
-                  </div>
-                </div>
-
-                <div>
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <div>
-                        <label for="">Free Shipping</label>
-                      </div>
-                      <div class="d-flex flex-direction-row">
-                        <div>
-                          <input type="radio" name="" id="" />
-                        </div>
-                        <div>
-                          <label for="">Rate - $0.00</label>
-                        </div>
-                      </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div>
+                      <label for="fname" class="txt-md">First Name*</label>
                     </div>
-                    <div class="col-sm-6">
-                      <div>
-                        <label for="">Flat Rate</label>
-                      </div>
-                      <div class="d-flex flex-direction-row">
-                        <div>
-                          <input type="radio" name="" id="" />
-                        </div>
-                        <div>
-                          <label for="">Rate - $5.00</label>
-                        </div>
-                      </div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id="fname"
+                        placeholder="Enter your first name"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <label for="lname" class="txt-md">Last Name*</label>
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id="lname"
+                        placeholder="Enter your last name"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <label for="email" class="txt-md">Email*</label>
+                    </div>
+                    <div>
+                      <input
+                        type="email"
+                        name=""
+                        id="email"
+                        placeholder="Enter your email"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <label for="phone" class="txt-md">Phone*</label>
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id="phone"
+                        placeholder="Enter your phone"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div>
+                      <label for="address" class="txt-md">Address</label>
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id="address"
+                        placeholder="Enter your address"
+                      />
+                    </div>
+                  </div>
+                  <div class="col col-md-6">
+                    <div>
+                      <label for="city" class="txt-md">City</label>
+                    </div>
+                    <div>
+                      <select id="city">
+                        <option selected>City</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <label for="cname" class="txt-md"
+                        >City Name If Not Found In Dropdown</label
+                      >
+                    </div>
+                    <div>
+                      <input
+                        type=""
+                        name=""
+                        id="cname"
+                        placeholder="Enter city if not found in dropdown"
+                      />
+                    </div>
+
+                    <div></div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <label for="country" class="txt-md">Country*</label>
+                    </div>
+                    <div>
+                      <select id="country">
+                        <option selected>Country</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div>
+                      <label for="pcode" class="txt-md">Postal Code</label>
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name=""
+                        id="pcode"
+                        placeholder="Enter your postal code "
+                      />
                     </div>
                   </div>
                 </div>
-                <div>
+              </div>
+              <div class="row col-sm-12 col-lg-4">
+                <!-- Block 2 -->
+                <div class="block col-12">
+                  <div>
+                    <h3>SUMMARY</h3>
+                  </div>
+                  <div>
+                    <div class="d-flex flex-direction-row">
+                      <div>Sub-Total</div>
+                      <div>$80.0</div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="d-flex flex-direction-row">
+                      <div>Delivery Charges</div>
+                      <div>$80.0</div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="d-flex flex-direction-row">
+                      <div>Coupan Discount</div>
+                      <div>Apply Coupan</div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="d-flex flex-direction-row">
+                      <h3>TOTAL AMOUNT</h3>
+                      <div>$80.0</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Block 3 -->
+                <div class="block col-12">
+                  <div>
+                    <h3>DELIVERY METHOD</h3>
+                  </div>
+
+                  <div>
+                    <div>
+                      <span>
+                        Please select the preferred shipping method to use on
+                        this order.
+                      </span>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div>
+                          <label for="">Free Shipping</label>
+                        </div>
+                        <div class="d-flex flex-direction-row">
+                          <div>
+                            <input type="radio" name="" id="" />
+                          </div>
+                          <div>
+                            <label for="">Rate - $0.00</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div>
+                          <label for="">Flat Rate</label>
+                        </div>
+                        <div class="d-flex flex-direction-row">
+                          <div>
+                            <input type="radio" name="" id="" />
+                          </div>
+                          <div>
+                            <label for="">Rate - $5.00</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <div>
+                        <label for="">Add Comments About Your Order</label>
+                      </div>
+                      <div>
+                        <input type="text" name="" id="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Block 4 -->
+                <div class="block col-12">
+                  <div>
+                    <h3>Payment Method</h3>
+                  </div>
+                  <div>
+                    <div>
+                      <span>
+                        Please select the preferred payment method to use on
+                        this order.
+                      </span>
+                    </div>
+                    <div class="d-flex flex-direction-row">
+                      <div>
+                        <input type="radio" name="" id="" />
+                      </div>
+                      <div>
+                        <span>Cash On Delivery</span>
+                      </div>
+                    </div>
+                  </div>
                   <div>
                     <div>
                       <label for="">Add Comments About Your Order</label>
@@ -271,65 +303,35 @@
                       <input type="text" name="" id="" />
                     </div>
                   </div>
+                  <div>
+                    <div class="d-flex flex-direction-row">
+                      <div>
+                        <input type="radio" name="" id="" />
+                      </div>
+                      <div>
+                        <a href="">
+                          I have read and agree to the
+                          <span> Terms & Conditions </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <!-- Block 4 -->
-              <div class="block col-12">
-                <div>
-                  <h3>Payment Method</h3>
-                </div>
-                <div>
-                  <div>
-                    <span>
-                      Please select the preferred payment method to use on this
-                      order.
-                    </span>
-                  </div>
-                  <div class="d-flex flex-direction-row">
-                    <div>
-                      <input type="radio" name="" id="" />
-                    </div>
-                    <div>
-                      <span>Cash On Delivery</span>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div>
-                    <label for="">Add Comments About Your Order</label>
-                  </div>
-                  <div>
-                    <input type="text" name="" id="" />
-                  </div>
-                </div>
-                <div>
-                  <div class="d-flex flex-direction-row">
-                    <div>
-                      <input type="radio" name="" id="" />
-                    </div>
-                    <div>
-                      <a href="">
-                        I have read and agree to the
-                        <span> Terms & Conditions </span>
-                      </a>
-                    </div>
-                  </div>
+
+              <!-- Block 5 -->
+              <div class="block col">
+                <div class="d-flex flex-direction-row justify-content-end">
+                  <button>PLACE ORDER</button>
                 </div>
               </div>
             </div>
 
-            <!-- Block 5 -->
-            <div class="block col-sm-12">
-              <div class="d-flex flex-direction-row justify-content-end">
-                <button>PLACE ORDER</button>
-              </div>
-            </div>
+            <!-- Button Place Order -->
+            <div></div>
           </div>
-
-          <!-- Button Place Order -->
-          <div></div>
-        </div>
-      </form>
+        </form>
+      </div>
     </section>
   </body>
 </html>
