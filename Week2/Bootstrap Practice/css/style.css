@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    height: 100%;
+
+    margin: 0;
+
+    /* font-family: "Arial, Helvetica, sans-serif"; */
+     font-family: "Poppins", sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.block {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.checkout-topbar{
+    background-color: #f7f7f7;
+}
+
+input{
+    width: 100%;
+}
+.heading1{
+
+}
+
+/* Text Utilities */
